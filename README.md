@@ -1,5 +1,5 @@
 # AI Generated Pokemon
 
-Updates every 4 hours with a new one.
+uses GPT to create a new pokemon with a type and description. THat description is then fed into DALL-E to make an image of the new pokemon. Updates every 4 hours...or whenever I want a new one. 
 
-GPT is used to create a DALL-E prompt with a description of a new pokemon
+NodeJS on the backend
