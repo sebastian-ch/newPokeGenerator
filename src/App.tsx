@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Card from "./Card";
-import { PokemonsType, imageUrl } from "./config";
+import { PokemonsType } from "./config";
 import usePokemons from "./hooks/usePokemons";
 import "./App.css";
 
@@ -9,12 +9,12 @@ function App() {
 
   const [pokemons, setPokemons] = useState<PokemonsType[] | null>(null);
 
-  async function checkImage(url: any) {
-    const res = await fetch(url);
-    const buff = await res.blob();
+  // async function checkImage(url: string) {
+  //   const res = await fetch(url);
+  //   const buff = await res.blob();
 
-    return buff.type.includes("image/");
-  }
+  //   return buff.type.includes("image/");
+  // }
 
   useEffect(() => {
     const fetchPokes = async () => {

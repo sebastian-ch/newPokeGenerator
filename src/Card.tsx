@@ -1,4 +1,3 @@
-import React from "react";
 import { PokemonsType, imageUrl } from "./config";
 
 function Card({ pokemon }: { pokemon: PokemonsType }) {
