@@ -4,6 +4,7 @@ import { PokemonsType } from "./config";
 import usePokemons from "./hooks/usePokemons";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import DetailedPokemon from "./DetailedPokemon";
 
 function App() {
   const { getPokemons } = usePokemons();
@@ -30,8 +31,8 @@ function App() {
   return (
     <Routes>
       <Route path="/newPokeGenerator/" element={<MainApp />} />
-      <Route path="/" element={<MainApp />} />
-      {/* <Route path="/:id" element={<MainApp />} /> */}
+      {/* <Route path="/" element={<MainApp />} /> */}
+      <Route path="/newPokeGenerator/:name" element={<DetailedPokemon />} />
     </Routes>
   );
 }

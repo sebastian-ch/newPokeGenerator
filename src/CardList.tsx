@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { PokemonsType, imageUrl } from "./config";
 
 function CardList({ pokemon }: { pokemon: PokemonsType[] }) {
-  //console.log(pokemon);
+  const navigate = useNavigate();
   const [validImages, setValidImages] = useState<any>([]);
 
   useEffect(() => {
@@ -38,13 +39,31 @@ function CardList({ pokemon }: { pokemon: PokemonsType[] }) {
     validateImages();
   }, []);
 
+  function onClick(e: any, po: any) {
+    const data = {
+      name: po.name,
+      type: po.type,
+      description: po.description,
+      image: e.target.src,
+    };
+    const name = e.target.alt;
+    navigate("/newPokeGenerator/" + name, {
+      state: data,
+    });
+  }
+
   return (
     <>
       {validImages.length ? (
         validImages?.map((po: any) => {
           return (
             po.exists && (
-              <div className="card">
+              <div
+                className="card"
+                onClick={(e) => {
+                  onClick(e, po);
+                }}
+              >
                 <h4
                   style={{ color: "whitesmoke", padding: "1px", margin: "2px" }}
                 >
