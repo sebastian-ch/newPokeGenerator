@@ -36,30 +36,34 @@ function CardList({ pokemon }: { pokemon: PokemonsType[] }) {
 
     // Call the function to validate images
     validateImages();
-  }, [pokemon]);
+  }, []);
 
   return (
     <>
-      {validImages?.map((po: any, index: any) => {
-        return (
-          po.exists && (
-            <div className="card">
-              <h4
-                style={{ color: "whitesmoke", padding: "1px", margin: "2px" }}
-              >
-                {po.name}
-              </h4>
+      {validImages.length ? (
+        validImages?.map((po: any) => {
+          return (
+            po.exists && (
+              <div className="card">
+                <h4
+                  style={{ color: "whitesmoke", padding: "1px", margin: "2px" }}
+                >
+                  {po.name}
+                </h4>
 
-              <img
-                src={imageUrl + po.name + ".jpg"}
-                alt={po.name}
-                width="256"
-                height="256"
-              />
-            </div>
-          )
-        );
-      })}
+                <img
+                  src={imageUrl + po.name + ".jpg"}
+                  alt={po.name}
+                  width="256"
+                  height="256"
+                />
+              </div>
+            )
+          );
+        })
+      ) : (
+        <h1>Loading..</h1>
+      )}
     </>
   );
 }

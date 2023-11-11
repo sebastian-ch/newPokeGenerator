@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import CardList from "./CardList";
 import { PokemonsType } from "./config";
 import usePokemons from "./hooks/usePokemons";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
 function App() {
@@ -15,10 +16,23 @@ function App() {
     });
   }, []);
 
+  const MainApp = () => {
+    return (
+      <>
+        <h2 style={{ textAlign: "center" }}>AI Generated Pokemon</h2>
+        <div className="container">
+          {pokemons && <CardList pokemon={pokemons} />}
+        </div>
+      </>
+    );
+  };
+
   return (
-    <div className="container">
-      {pokemons && <CardList pokemon={pokemons} />}
-    </div>
+    <Routes>
+      <Route path="/newPokeGenerator/" element={<MainApp />} />
+      <Route path="/" element={<MainApp />} />
+      {/* <Route path="/:id" element={<MainApp />} /> */}
+    </Routes>
   );
 }
 
