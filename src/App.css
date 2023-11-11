@@ -31,6 +31,17 @@
   margin-top: 5rem;
 }
 
+.detailed-img {
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  width: 512px;
+  height: 512px;
+  @media (max-width: 400px) {
+    width: 256px;
+    height: 256px;
+  }
+}
+
 img {
   border: 2px solid whitesmoke;
   border-radius: 5px;

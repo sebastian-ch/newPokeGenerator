@@ -31,11 +31,11 @@ const DetailedPokemon = () => {
         display: "flex",
         maxWidth: "100vw",
         maxHeight: "100vh",
-        // margin: 0,
+        //margin: 10,
         // padding: 0,
         alignItems: "center",
         justifyContent: "center",
-        overflow: "hidden",
+        //overflow: "hidden",
       }}
     >
       <div className="detailed-card">
@@ -52,7 +52,7 @@ const DetailedPokemon = () => {
         >
           {state?.type}
         </h3>
-        <img src={state.image} alt={state?.name} width="512" height="512" />
+        <img src={state.image} alt={state?.name} className="detailed-img" />
         <h4 style={{ color: "whitesmoke" }}>{state?.description}</h4>
       </div>
     </div>
@@ -66,7 +66,7 @@ const DetailedPokemon = () => {
         // padding: 0,
         alignItems: "center",
         justifyContent: "center",
-        overflow: "hidden",
+        //overflow: "hidden",
       }}
     >
       <div className="detailed-card">
@@ -86,8 +86,7 @@ const DetailedPokemon = () => {
         <img
           src={imageUrl + pokePath?.name + ".jpg"}
           alt={pokePath?.name}
-          width="512"
-          height="512"
+          className="detailed-img"
         />
         <h4 style={{ color: "whitesmoke" }}>{pokePath?.description}</h4>
       </div>
