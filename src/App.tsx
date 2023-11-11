@@ -31,8 +31,9 @@ function App() {
   return (
     <Routes>
       <Route path="/newPokeGenerator/" element={<MainApp />} />
-      {/* <Route path="/" element={<MainApp />} /> */}
+      <Route path="/" element={<MainApp />} />
       <Route path="/newPokeGenerator/:name" element={<DetailedPokemon />} />
+      <Route path="/:name" element={<DetailedPokemon />} />
     </Routes>
   );
 }
