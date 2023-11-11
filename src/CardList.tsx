@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { PokemonsType, imageUrl } from "./config";
 
 function CardList({ pokemon }: { pokemon: PokemonsType[] }) {
-  //console.log(pokemon);
+  const navigate = useNavigate();
   const [validImages, setValidImages] = useState<any>([]);
 
   useEffect(() => {
@@ -36,30 +37,52 @@ function CardList({ pokemon }: { pokemon: PokemonsType[] }) {
 
     // Call the function to validate images
     validateImages();
-  }, [pokemon]);
+  }, []);
+
+  function onClick(e: any, po: any) {
+    const data = {
+      name: po.name,
+      type: po.type,
+      description: po.description,
+      image: e.target.src,
+    };
+    const name = e.target.alt;
+    navigate("/newPokeGenerator/" + name, {
+      state: data,
+    });
+  }
 
   return (
     <>
-      {validImages?.map((po: any, index: any) => {
-        return (
-          po.exists && (
-            <div className="card">
-              <h4
-                style={{ color: "whitesmoke", padding: "1px", margin: "2px" }}
+      {validImages.length ? (
+        validImages?.map((po: any) => {
+          return (
+            po.exists && (
+              <div
+                className="card"
+                onClick={(e) => {
+                  onClick(e, po);
+                }}
               >
-                {po.name}
-              </h4>
+                <h4
+                  style={{ color: "whitesmoke", padding: "1px", margin: "2px" }}
+                >
+                  {po.name}
+                </h4>
 
-              <img
-                src={imageUrl + po.name + ".jpg"}
-                alt={po.name}
-                width="256"
-                height="256"
-              />
-            </div>
-          )
-        );
-      })}
+                <img
+                  src={imageUrl + po.name + ".jpg"}
+                  alt={po.name}
+                  width="256"
+                  height="256"
+                />
+              </div>
+            )
+          );
+        })
+      ) : (
+        <h1>Loading..</h1>
+      )}
     </>
   );
 }
