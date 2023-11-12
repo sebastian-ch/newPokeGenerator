@@ -22,7 +22,22 @@ function App() {
   const MainApp = () => {
     return (
       <>
-        <h2 style={{ textAlign: "center" }}>AI Generated Pokemon</h2>
+        <h2 style={{ textAlign: "center", marginBottom: "3px" }}>
+          AI Generated Pokemon
+        </h2>
+        <h4
+          style={{
+            textAlign: "center",
+            maxWidth: "600px",
+            margin: "0 auto",
+            marginBottom: "20px",
+          }}
+        >
+          Uses GPT to create a new Pokemon and DALL-E 3 to generate a picture of
+          it. Click on the Pokemon to see more details. The description is most
+          of the DALL-E prompt. Updates every 2 hours (or whenever I want
+          another).
+        </h4>
         <div className="container">
           {pokemons && <CardList pokemon={pokemons} />}
         </div>
