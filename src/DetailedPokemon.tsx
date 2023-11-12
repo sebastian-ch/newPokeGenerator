@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import { useLocation, useParams } from "react-router-dom";
+import { useLocation, useParams, useNavigate } from "react-router-dom";
 import { imageUrl } from "./config";
 import usePokemons from "./hooks/usePokemons";
 
 const DetailedPokemon = () => {
   const { getPokemons } = usePokemons();
+  const navigate = useNavigate();
   const location = useLocation();
   const { name } = useParams();
   const { state } = location;
@@ -24,13 +25,19 @@ const DetailedPokemon = () => {
       });
     }
   }, [state]);
-  //console.log(location.state);
+
+  function backToList() {
+    navigate("/newPokeGenerator");
+  }
+
   return state ? (
     <div
       style={{
         display: "flex",
         maxWidth: "100vw",
         maxHeight: "100vh",
+        flexDirection: "column",
+
         //margin: 10,
         // padding: 0,
         alignItems: "center",
@@ -38,6 +45,7 @@ const DetailedPokemon = () => {
         //overflow: "hidden",
       }}
     >
+      <button onClick={backToList}>Back to List</button>
       <div className="detailed-card">
         <h2 style={{ color: "whitesmoke", padding: "1px", margin: "2px" }}>
           {state?.name}
@@ -60,6 +68,7 @@ const DetailedPokemon = () => {
     <div
       style={{
         display: "flex",
+        flexDirection: "column",
         maxWidth: "100vw",
         maxHeight: "100vh",
         // margin: 0,
@@ -69,6 +78,8 @@ const DetailedPokemon = () => {
         //overflow: "hidden",
       }}
     >
+      <button onClick={backToList}>Back to List</button>
+
       <div className="detailed-card">
         <h2 style={{ color: "whitesmoke", padding: "1px", margin: "2px" }}>
           {pokePath?.name}

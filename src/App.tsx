@@ -12,9 +12,11 @@ function App() {
   const [pokemons, setPokemons] = useState<PokemonsType[] | null>(null);
 
   useEffect(() => {
-    getPokemons().then((pokemons: PokemonsType[]) => {
-      setPokemons(pokemons.reverse());
-    });
+    if (!pokemons) {
+      getPokemons().then((pokemons: PokemonsType[]) => {
+        setPokemons(pokemons.reverse());
+      });
+    }
   }, []);
 
   const MainApp = () => {
