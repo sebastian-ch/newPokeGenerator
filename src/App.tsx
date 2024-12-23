@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     if (!pokemons) {
-      //console.log('app')
+      console.log('app')
       getPokemons().then((pokemons: PokemonsType[]) => {
         setPokemons(pokemons.reverse());
       });
