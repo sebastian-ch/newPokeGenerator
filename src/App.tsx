@@ -36,8 +36,7 @@ function App() {
         >
           Uses GPT to create a new Pokemon and DALL-E 3 to generate a picture of
           it. Click on the Pokemon to see more details. The description is most
-          of the DALL-E prompt. Updates every 2 hours (or whenever I want
-          another).
+          of the DALL-E prompt. Updates every 15 minutes.
         </h4>
         <div className="container">
           {pokemons && <CardList pokemon={pokemons} />}
