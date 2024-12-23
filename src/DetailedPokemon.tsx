@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useLocation, useParams, useNavigate } from "react-router-dom";
-import { imageUrl } from "./config";
 import usePokemons from "./hooks/usePokemons";
 
 const DetailedPokemon = () => {
@@ -14,23 +13,25 @@ const DetailedPokemon = () => {
 
   useEffect(() => {
     if (!state) {
-      console.log(name);
-      console.log("state is undefined");
+      // console.log(name);
+      // console.log("state is undefined");
       getPokemons().then((pokemons: any) => {
         const currntPath = pokemons.find((poke: any) => {
           return poke.name == name;
         });
-        console.log(currntPath);
+        // console.log(currntPath);
         setPokePath(currntPath);
       });
     }
   }, [state]);
+  
 
   function backToList() {
     navigate("/newPokeGenerator");
   }
 
-  return state ? (
+  return (
+    state ? 
     <div
       style={{
         display: "flex",
@@ -64,7 +65,7 @@ const DetailedPokemon = () => {
         <h4 style={{ color: "whitesmoke" }}>{state?.description}</h4>
       </div>
     </div>
-  ) : (
+   : 
     <div
       style={{
         display: "flex",
@@ -95,14 +96,14 @@ const DetailedPokemon = () => {
           {pokePath?.type}
         </h3>
         <img
-          src={imageUrl + pokePath?.name + ".jpg"}
+          src={pokePath?.img}
           alt={pokePath?.name}
           className="detailed-img"
         />
         <h4 style={{ color: "whitesmoke" }}>{pokePath?.description}</h4>
       </div>
     </div>
-  );
+  )
 };
 
 export default DetailedPokemon;

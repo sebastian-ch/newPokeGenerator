@@ -1,11 +1,15 @@
-import { apiUrl } from "../config";
-
+import { createClient } from "@supabase/supabase-js";
+const supabase = createClient(
+    import.meta.env.VITE_SUPABASE_URL,
+    import.meta.env.VITE_SUPABASE_KEY
+);
 export default function usePokemons() {
+
   const getPokemons = async () => {
-    const response = await fetch(apiUrl + "pokemons");
-    const data = await response.json();
-    //console.log(data);
-    return await data.data;
+    const { data, error } = await supabase.from("pokes").select("*");
+    //console.log(data)
+    if (error) throw error;
+    return data;
   };
 
   return { getPokemons };
