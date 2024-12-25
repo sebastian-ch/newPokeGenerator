@@ -1,4 +1,4 @@
-import React from "react";
+type PokemonType = keyof typeof POKEMON_TYPES;
 
 export const POKEMON_TYPES = {
   normal: "#A8A878",
@@ -19,9 +19,20 @@ export const POKEMON_TYPES = {
   dark: "#705848",
   steel: "#B8B8D0",
   fairy: "#EE99AC",
-};
+} as const;
 
-const Chip = ({ label, textColor = "#000000", style = {}, className = "" }) => {
+type chipType = {
+  label: string;
+  textColor: string;
+  style: React.CSSProperties;
+  className: string;
+};
+const Chip = ({
+  label,
+  textColor = "#000000",
+  style = {},
+  className = "",
+}: chipType) => {
   const [type1, type2] = label.split("/");
 
   const chipStyle = {
@@ -38,13 +49,17 @@ const Chip = ({ label, textColor = "#000000", style = {}, className = "" }) => {
     ...style,
   };
 
+  const getTypeColor = (type: string): string => {
+    const normalizedType = type.toLowerCase() as PokemonType;
+    return POKEMON_TYPES[normalizedType] || POKEMON_TYPES.normal;
+  };
+
   return (
     <>
       <div
         style={{
           ...chipStyle,
-          backgroundColor:
-            POKEMON_TYPES[type1.toLowerCase()] || POKEMON_TYPES.normal,
+          backgroundColor: getTypeColor(type1),
         }}
         className={className}
       >
@@ -54,8 +69,7 @@ const Chip = ({ label, textColor = "#000000", style = {}, className = "" }) => {
         <div
           style={{
             ...chipStyle,
-            backgroundColor:
-              POKEMON_TYPES[type2.toLowerCase()] || POKEMON_TYPES.normal,
+            backgroundColor: getTypeColor(type2),
           }}
           className={className}
         >
