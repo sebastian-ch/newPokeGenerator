@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     if (!pokemons) {
-      console.log('app')
+      console.log("app");
       getPokemons().then((pokemons: PokemonsType[]) => {
         setPokemons(pokemons.reverse());
       });
@@ -36,7 +36,7 @@ function App() {
         >
           Uses AI to create a new Pokemon and dall-e-3 to generate a picture of
           it. Click on the Pokemon to see more details. The description is most
-          of the dall-e prompt. New Pokemon every 15 minutes.
+          of the dall-e prompt. New Pokemon every 30 minutes.
         </h4>
         <div className="container">
           {pokemons && <CardList pokemon={pokemons} />}
