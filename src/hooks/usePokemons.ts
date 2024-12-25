@@ -15,5 +15,12 @@ export default function usePokemons() {
     return data;
   };
 
-  return { getPokemons };
+  const getStats = async () => {
+    const { data, error } = await supabase.from("pokes").select("type");
+    //console.log(data)
+    if (error) throw error;
+    return data;
+  };
+
+  return { getPokemons, getStats };
 }

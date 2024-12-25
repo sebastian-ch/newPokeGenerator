@@ -1,0 +1,1090 @@
+[
+  {
+    "id": 4,
+    "created_at": "2024-12-23T17:43:22.899933+00:00",
+    "name": "Lumifinix",
+    "type": "Fire/Fairy",
+    "description": "A majestic phoenix with iridescent feathers that shimmer in shades of orange, pink, and gold. Its large, fiery wings emit a warm glow, and sparkling stars swirl around its body. The eyes shine like gems, radiating magic and warmth, creating a dazzling aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Lumifinix?"
+  },
+  {
+    "id": 5,
+    "created_at": "2024-12-23T17:47:27.352127+00:00",
+    "name": "Glacifleur",
+    "type": "Ice/Fairy",
+    "description": "A mystical flower with shimmering ice petals, glowing softly in pastel colors. Its stem is adorned with crystal-like leaves, and it has tiny, twinkling stars embedded within. A gentle snow flurry surrounds it, creating an enchanting, ethereal atmosphere, evoking a whimsical winter garden.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glacifleur?"
+  },
+  {
+    "id": 6,
+    "created_at": "2024-12-23T17:48:50.003611+00:00",
+    "name": "Aetherdrake",
+    "type": "Dragon/Fairy",
+    "description": "A majestic, shimmering dragon with translucent wings resembling stained glass. Its scales reflect iridescent colors, while gentle, glowing orbs orbit around its body. A long, flowing tail trails with sparkling stardust, and its eyes shine with ancient wisdom.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Aetherdrake?"
+  },
+  {
+    "id": 7,
+    "created_at": "2024-12-23T17:50:11.277716+00:00",
+    "name": "Terraclaw",
+    "type": "Ground/Fighting",
+    "description": "A robust, earthy creature resembling a giant tortoise with rocky plates. It has large, muscular claws resembling ancient stone carvings. Its shell is adorned with green moss and flowering plants, while its fierce eyes gleam with determination and strength.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Terraclaw?"
+  },
+  {
+    "id": 8,
+    "created_at": "2024-12-23T17:55:21.418799+00:00",
+    "name": "Cinderbloom",
+    "type": "Fire/Grass",
+    "description": "Cinderbloom resembles a vibrant flower with fiery petals that glow like embers. Its stem is made of charred wood, with green leaves that shimmer in the sunlight. It emits smoke and sparks, creating a mystical aura around it.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Cinderbloom?"
+  },
+  {
+    "id": 9,
+    "created_at": "2024-12-23T18:09:41.299776+00:00",
+    "name": "Nebulaflare",
+    "type": "Psychic/Fire",
+    "description": "A celestial, phoenix-like creature with shimmering, translucent wings that radiate vibrant hues of purple and orange. Its body is adorned with sparkling stardust and ethereal flames, while its bright, cosmic eyes reflect the universe's mysteries, creating a mesmerizing glow.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Nebulaflare?"
+  },
+  {
+    "id": 10,
+    "created_at": "2024-12-23T18:20:21.973463+00:00",
+    "name": "Chronosparrow",
+    "type": "Flying/Steel",
+    "description": "A sleek, metallic bird with iridescent feathers that shimmer like a clock face. Its wings are adorned with intricate gears, and a glowing hourglass pendant hangs from its neck. It flies gracefully, leaving a trail of shimmering time dust.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Chronosparrow?"
+  },
+  {
+    "id": 11,
+    "created_at": "2024-12-23T18:21:20.704563+00:00",
+    "name": "Vortexhive",
+    "type": "Bug/Flying",
+    "description": "A mesmerizing insectoid Pokémon, Vortexhive has vibrant, iridescent wings resembling a swirling galaxy. Its body is accented with honeycomb patterns, glowing softly. Its antennae resemble delicate flowers. It floats gracefully, leaving trails of sparkling pollen as it navigates through the air.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Vortexhive?"
+  },
+  {
+    "id": 12,
+    "created_at": "2024-12-23T18:22:19.958879+00:00",
+    "name": "Frostrex",
+    "type": "Ice/Dragon",
+    "description": "A majestic dragon with glistening blue scales that shimmer like ice. It has sharp, crystalline wings and icicle-like spikes along its spine. Its piercing silver eyes radiate a frosty mist, surrounded by swirling snowflakes that dance in the air around it.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Frostrex?"
+  },
+  {
+    "id": 13,
+    "created_at": "2024-12-23T18:25:21.334036+00:00",
+    "name": "Abyssalwisp",
+    "type": "Water/Ghost",
+    "description": "A ghostly, ethereal creature resembling a floating jellyfish with translucent, shimmering blue tentacles. Its body glows softly like bioluminescent waves, while wisps of mist swirl around it. Small, luminescent orbs drift nearby, creating an enchanting, otherworldly aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Abyssalwisp?"
+  },
+  {
+    "id": 14,
+    "created_at": "2024-12-23T18:30:19.483342+00:00",
+    "name": "Fulgoraptor",
+    "type": "Electric/Flying",
+    "description": "A sleek, avian creature resembling a raptor, adorned with iridescent feathers that shimmer like lightning. Its wings crackle with energy, showcasing vibrant blue and yellow patterns. Sharp, glowing eyes and a long, graceful tail leave a trail of sparks as it soars.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Fulgoraptor?"
+  },
+  {
+    "id": 15,
+    "created_at": "2024-12-23T18:45:23.052639+00:00",
+    "name": "Sylvaris",
+    "type": "Grass/Fairy",
+    "description": "A majestic, tree-like Pokémon with flowing emerald leaves cascading like hair. Delicate, luminescent flowers bloom along its branches. Its bark-like skin shimmers in sunlight, and it has large, expressive eyes resembling crystalline dewdrops, radiating a soft, magical glow through the forest.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Sylvaris?"
+  },
+  {
+    "id": 16,
+    "created_at": "2024-12-23T19:00:25.645266+00:00",
+    "name": "Zephyrquill",
+    "type": "Flying/Steel",
+    "description": "A majestic, avian creature with iridescent metallic feathers glistening in the sunlight. Its elongated wings resemble quills, and its sharp, sleek beak shines like polished silver. It soars gracefully, leaving a trail of shimmering winds and glimmering sparks behind.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Zephyrquill?"
+  },
+  {
+    "id": 17,
+    "created_at": "2024-12-23T19:15:26.070391+00:00",
+    "name": "Luminaraff",
+    "type": "Fairy/Grass",
+    "description": "A whimsical creature resembling a giant, glowing rafflesia flower, with radiant petals pulsating in soft pastels. It has sparkling wings like gossamer leaves, a gentle face surrounded by luminescent orbs, and vines flowing elegantly, creating a magical, serene presence in forest glades.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Luminaraff?"
+  },
+  {
+    "id": 18,
+    "created_at": "2024-12-23T19:30:23.942197+00:00",
+    "name": "Astralynx",
+    "type": "Psychic/Fairy",
+    "description": "A sleek, ethereal lynx with shimmering fur that glows in pastel hues. Its large, starry eyes sparkle like the night sky, and transparent, butterfly-like wings extend from its back, allowing it to dance gracefully through the cosmos, leaving trails of stardust.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Astralynx?"
+  },
+  {
+    "id": 19,
+    "created_at": "2024-12-23T20:00:23.287738+00:00",
+    "name": "Emberquill",
+    "type": "Fire/Flying",
+    "description": "A majestic bird with flaming plumage that glimmers like molten metal. Its wings radiate vibrant hues of red and orange, trailing embers in the air. Eyes like molten lava glow fiercely, while silver talons shimmer under starlight, exuding an aura of warmth.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Emberquill?"
+  },
+  {
+    "id": 20,
+    "created_at": "2024-12-23T20:15:26.010521+00:00",
+    "name": "Solraquill",
+    "type": "Fire/Flying",
+    "description": "A majestic bird with radiant golden feathers and wings resembling flames. Its eyes shimmer like molten lava, and it leaves a trail of sparkling embers as it soars. Its tail feathers fan out, glowing like a sunset against the sky.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Solraquill?"
+  },
+  {
+    "id": 21,
+    "created_at": "2024-12-23T20:30:23.031509+00:00",
+    "name": "Stellavine",
+    "type": "Grass/Fairy",
+    "description": "A celestial vine creature with iridescent, star-patterned leaves. Delicate vines intertwine like galaxies, glowing softly with pastel colors. Its glowing flowers resemble tiny constellations, while whimsical, translucent wings flutter gently, resembling ethereal light. It radiates a soothing, magical aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Stellavine?"
+  },
+  {
+    "id": 22,
+    "created_at": "2024-12-23T20:45:17.557508+00:00",
+    "name": "Luminocorn",
+    "type": "Fairy/Psychic",
+    "description": "A majestic unicorn with a shimmering, iridescent mane and tail that sparkles like stardust. Its body glows softly in pastel colors, with intricate patterns resembling constellations. Large, expressive eyes radiate wisdom, and its spiraled horn emanates a gentle, enchanting light.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Luminocorn?"
+  },
+  {
+    "id": 23,
+    "created_at": "2024-12-23T21:00:22.76239+00:00",
+    "name": "Crystalfang",
+    "type": "Ice/Dragon",
+    "description": "A majestic dragon covered in shimmering, ice-blue scales. Its long, elegant wings resemble frosted crystal, and its fangs sparkle like icicles. Glowing blue eyes exude wisdom, while a flowing mane of icy mist emits a magical aura as it glides gracefully.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Crystalfang?"
+  },
+  {
+    "id": 24,
+    "created_at": "2024-12-23T21:30:18.590743+00:00",
+    "name": "Aetherbloom",
+    "type": "Fairy/Grass",
+    "description": "A whimsical flower-like Pokémon with ethereal petals that shimmer in pastel colors. It has delicate, translucent wings resembling butterfly wings, and its stem has a gnarled, ancient tree texture, exuding soft, glowing pollen in a magical, enchanted forest setting.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Aetherbloom?"
+  },
+  {
+    "id": 25,
+    "created_at": "2024-12-23T21:45:19.029515+00:00",
+    "name": "Ferrothornix",
+    "type": "Steel/Grass",
+    "description": "A towering, metallic tree-like creature with interlocking steel leaves and glowing emerald gemstones embedded in its trunk. Its limbs resemble heavy iron branches, and it emits a soft, green glow, creating an enchanting presence in lush forests.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Ferrothornix?"
+  },
+  {
+    "id": 26,
+    "created_at": "2024-12-23T22:00:17.76096+00:00",
+    "name": "Mythawisp",
+    "type": "Fairy/Ghost",
+    "description": "A delicate, ethereal creature resembling a translucent butterfly with shimmering, luminous wings that sparkle like stars. It has soft, glowing orbs around its body, and its eyes are deep pools of mist. It floats gracefully, surrounded by a gentle luminescent glow.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Mythawisp?"
+  },
+  {
+    "id": 27,
+    "created_at": "2024-12-23T22:30:17.6811+00:00",
+    "name": "Aquaflameox",
+    "type": "Water/Fire",
+    "description": "A mesmerizing creature with flowing, iridescent scales that shimmer like water, accented by flames flickering along its fins. Its body is serpent-like, with vibrant hues of blue and orange, and large, luminous eyes that radiate warmth and mystery.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Aquaflameox?"
+  },
+  {
+    "id": 28,
+    "created_at": "2024-12-23T22:45:23.280965+00:00",
+    "name": "Galaxilume",
+    "type": "Psychic/Fairy",
+    "description": "A celestial, ethereal being resembling a luminous starry owl. Its feathers shimmer in cosmic hues of purple and blue, with twinkling stardust. Large, expressive eyes glow softly, surrounded by delicate, shimmering wings that emit a calming, sparkling aura. Mystical and enchanting.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Galaxilume?"
+  },
+  {
+    "id": 29,
+    "created_at": "2024-12-23T23:00:23.951253+00:00",
+    "name": "Verdantauris",
+    "type": "Grass/Fairy",
+    "description": "A majestic creature resembling a deer with vibrant green foliage as antlers, its body is adorned with colorful flowers and glistening dew. Luminescent wings resemble delicate leaves, radiating soft pastel hues. Its eyes sparkle with ancient wisdom and kindness.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Verdantauris?"
+  },
+  {
+    "id": 30,
+    "created_at": "2024-12-23T23:30:21.744617+00:00",
+    "name": "Pyrolynx",
+    "type": "Fire/Fairy",
+    "description": "A majestic lynx with shimmering, flame-colored fur. Its eyes glow like molten gold, with ethereal wings made of light and embers. Its paws leave a glowing trail, and it is surrounded by sparkling fireflies that dance in the air.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Pyrolynx?"
+  },
+  {
+    "id": 31,
+    "created_at": "2024-12-23T23:45:17.735891+00:00",
+    "name": "Chronocube",
+    "type": "Steel/Psychic",
+    "description": "A sleek, metallic cube with shimmering, holographic surfaces. It has glowing, swirling patterns that resemble time vortexes. Whirring gears and clock hands rotate visibly, and it hovers slightly above the ground, radiating a soft, ethereal light.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Chronocube?"
+  },
+  {
+    "id": 32,
+    "created_at": "2024-12-24T00:00:23.511773+00:00",
+    "name": "Frostflame Seraph",
+    "type": "Ice/Fire",
+    "description": "A majestic, ethereal creature with shimmering icy blue feathers and vibrant crimson scales. Its wings radiate frost while flames dance at the tips. A halo of glowing embers surrounds its head, creating a striking contrast against its elegant, sharp features.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Frostflame Seraph?"
+  },
+  {
+    "id": 33,
+    "created_at": "2024-12-24T00:15:15.810656+00:00",
+    "name": "Embervine",
+    "type": "Fire/Grass",
+    "description": "A vibrant, fiery plant creature with bright red and orange leaves. Its trunk resembles twisted vines, glowing with embers. Fiery flowers bloom among its foliage, radiating warmth. Its eyes glow like embers, exuding a mesmerizing charm in a forest of flames.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Embervine?"
+  },
+  {
+    "id": 34,
+    "created_at": "2024-12-24T00:45:18.856862+00:00",
+    "name": "Emberwisp",
+    "type": "Fire/Fairy",
+    "description": "A small, ethereal creature with flickering flames as its wings, glowing softly like fireflies. It has a shimmering, ember-colored body adorned with delicate, translucent patterns that sparkle. Its large, expressive eyes glow warmly, exuding a comforting aura amidst fiery forest glades.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Emberwisp?"
+  },
+  {
+    "id": 35,
+    "created_at": "2024-12-24T01:00:25.535132+00:00",
+    "name": "Nebulasphinx",
+    "type": "Psychic/Flying",
+    "description": "A majestic creature resembling a large, ethereal feline with shimmering, star-kissed fur. Its wings are transparent, reflecting cosmic colors, and its eyes glow with ancient wisdom. Surrounded by a halo of galaxy-themed dust, it embodies mystery and celestial beauty.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Nebulasphinx?"
+  },
+  {
+    "id": 36,
+    "created_at": "2024-12-24T01:15:19.727617+00:00",
+    "name": "Starblossom",
+    "type": "Fairy/Grass",
+    "description": "A radiant flower creature with star-shaped petals, sparkling like diamonds. Its delicate vines glow softly, adorned with shimmering orbs. It has luminous green leaves and a gentle smile, hovering above the ground, surrounded by a soft, twinkling aura of light.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Starblossom?"
+  },
+  {
+    "id": 37,
+    "created_at": "2024-12-24T01:30:34.795493+00:00",
+    "name": "Lumivolcanis",
+    "type": "Fire/Steel",
+    "description": "A majestic phoenix-like creature with molten lava wings, shimmering steel feathers, and fiery eyes. Its body glows with molten patterns, and it leaves a trail of sparks. Surrounded by swirling magma and embers, it radiates an aura of intense heat and power.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Lumivolcanis?"
+  },
+  {
+    "id": 38,
+    "created_at": "2024-12-24T02:00:20.585167+00:00",
+    "name": "Celestracer",
+    "type": "Psychic/Fairy",
+    "description": "A majestic, ethereal creature resembling a horse made of shimmering stardust and glowing pastel colors. Its flowing mane twinkles like the night sky, adorned with luminescent orbs. Large, delicate wings resemble cosmic nebulae, leaving a trail of sparkles as it gracefully glides.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Celestracer?"
+  },
+  {
+    "id": 39,
+    "created_at": "2024-12-24T02:15:27.539188+00:00",
+    "name": "Eclipseris",
+    "type": "Dark/Psychic",
+    "description": "Eclipseris is a sleek, shadowy serpent with shimmering, iridescent scales that reflect starry night skies. Its large, luminescent eyes glow with psychic energy. Ethereal wisps trail behind, creating a hauntingly beautiful aura, while its long, flowing tail mimics the movement of a galaxy.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Eclipseris?"
+  },
+  {
+    "id": 113,
+    "created_at": "2024-12-24T21:15:20.5264+00:00",
+    "name": "Floracorn",
+    "type": "Grass/Fairy",
+    "description": "A shimmering unicorn with a mane of blooming flowers in vibrant colors. Its body is covered in delicate petals, and its horn sparkles like dew in the sun. Surrounded by a soft glow, it embodies the essence of nature and magic.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Floracorn?"
+  },
+  {
+    "id": 40,
+    "created_at": "2024-12-24T02:30:19.850491+00:00",
+    "name": "Floralynx",
+    "type": "Grass/Fairy",
+    "description": "A majestic lynx with lush, vibrant green fur adorned with blooming flowers. Its sparkling eyes shimmer like dew, and delicate floral patterns swirl across its body. Ethereal, silvery wings sprout from its back, gliding gracefully through enchanted forests.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Floralynx?"
+  },
+  {
+    "id": 41,
+    "created_at": "2024-12-24T02:45:18.584722+00:00",
+    "name": "Verdantidra",
+    "type": "Grass/Dragon",
+    "description": "A majestic, serpentine dragon with vibrant green scales, adorned with luminescent leaf patterns. Its wide, glimmering wings resemble vines, adorned with flowers. Its eyes shine like emeralds, exuding a gentle aura. It coils gracefully around ancient trees, blending seamlessly into nature.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Verdantidra?"
+  },
+  {
+    "id": 42,
+    "created_at": "2024-12-24T03:00:29.569046+00:00",
+    "name": "Psycheflora",
+    "type": "Psychic/Grass",
+    "description": "A mystical, ethereal creature resembling a vibrant flower with glowing, swirling petals. Its central core radiates colorful light, surrounded by delicate, transparent leaves. Psycheflora floats gracefully, exuding an aura of serene energy, while wisps of psychic energy dance around it.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Psycheflora?"
+  },
+  {
+    "id": 43,
+    "created_at": "2024-12-24T03:15:20.74901+00:00",
+    "name": "Blitzbloom",
+    "type": "Electric/Grass",
+    "description": "A vibrant, luminescent flower with jagged, electric-blue petals. Its center glows like a pulsating sun, surrounded by glowing vines. Tall, leafy stalks with sparkling lightning motifs. Whenever it moves, static sparks dance in the air, radiating a cheerful energy.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Blitzbloom?"
+  },
+  {
+    "id": 44,
+    "created_at": "2024-12-24T03:30:18.46813+00:00",
+    "name": "Thundraflame",
+    "type": "Electric/Fire",
+    "description": "A magnificent bird with electric-blue feathers and glowing ember-like patterns. Its wings crackle with energy, while flames dance along its body. Sharp talons and a fierce beak complete this striking avian creature, radiating an aura of power in a vivid, stormy sky.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Thundraflame?"
+  },
+  {
+    "id": 45,
+    "created_at": "2024-12-24T03:46:20.664979+00:00",
+    "name": "Flamebloom",
+    "type": "Fire/Grass",
+    "description": "A vibrant, flaming flower creature with fiery petals and green leaves. Its body emits gentle flames, creating a warm glow. A soft, ember-like aura surrounds it, while the center houses a pulsating core resembling a sun, radiating energy and life.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Flamebloom?"
+  },
+  {
+    "id": 46,
+    "created_at": "2024-12-24T04:00:22.409416+00:00",
+    "name": "Etherraquin",
+    "type": "Fairy/Dragon",
+    "description": "A shimmering, elegant creature with iridescent scales, resembling a mix of a dragon and a water nymph. It has translucent wings adorned with shimmering patterns, a flowing tail that cascades like liquid light, and sparkling eyes that radiate kindness.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Etherraquin?"
+  },
+  {
+    "id": 47,
+    "created_at": "2024-12-24T04:30:22.419147+00:00",
+    "name": "Solaraptor",
+    "type": "Fire/Flying",
+    "description": "A majestic raptor with glowing golden feathers, its wings reminiscent of flames. Its eyes sparkle like the sun, and it leaves a trail of light as it flies. Fiery tendrils ripple along its tail, creating a radiant halo around its silhouette.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Solaraptor?"
+  },
+  {
+    "id": 48,
+    "created_at": "2024-12-24T04:45:23.786562+00:00",
+    "name": "Cindergrove",
+    "type": "Fire/Grass",
+    "description": "A majestic tree-like Pokémon, with vibrant, glowing leaves resembling flames. Its bark is dark and charred, while flickering embers dance around its branches. It stands tall, radiating warmth and light, resembling a living inferno intertwined with nature.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Cindergrove?"
+  },
+  {
+    "id": 49,
+    "created_at": "2024-12-24T05:00:24.716597+00:00",
+    "name": "Astralwisp",
+    "type": "Fairy/Ghost",
+    "description": "A shimmering, ethereal creature resembling a delicate will-o'-the-wisp with translucent wings. Its body glows softly in pastel hues, surrounded by sparkling stardust. Wispy tendrils trail behind it, evoking a sense of mystery and enchanting allure as it floats gracefully through the night.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Astralwisp?"
+  },
+  {
+    "id": 50,
+    "created_at": "2024-12-24T05:15:17.600956+00:00",
+    "name": "Synthecrown",
+    "type": "Steel/Fairy",
+    "description": "A majestic, robotic creature with a shimmering metallic body adorned with iridescent fairy wings. Its head features a crown of luminescent crystals, and its eyes glow softly, casting a warm light while hovering gracefully in gardens filled with vibrant flowers.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Synthecrown?"
+  },
+  {
+    "id": 51,
+    "created_at": "2024-12-24T05:30:24.362326+00:00",
+    "name": "Glintoraptor",
+    "type": "Steel/Flying",
+    "description": "A sleek, robotic raptor with shimmering chrome feathers. Its wings resemble intricate gears, and its eyes glow with a bright blue light. Beneath its sharp beak, metallic scales reflect sunlight, creating a dazzling display as it soars through the sky.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glintoraptor?"
+  },
+  {
+    "id": 52,
+    "created_at": "2024-12-24T05:45:18.993902+00:00",
+    "name": "Auroracube",
+    "type": "Psychic/Steel",
+    "description": "A floating, cubic Pokémon shimmering with iridescent colors. Its smooth metallic surfaces reflect beams of light, casting enchanting patterns. Ethereal, wispy tendrils extend from its corners, glowing softly. A kaleidoscope of faint stars and constellations dances across its surfaces.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Auroracube?"
+  },
+  {
+    "id": 53,
+    "created_at": "2024-12-24T06:00:19.755764+00:00",
+    "name": "Dracoflora",
+    "type": "Dragon/Grass",
+    "description": "A majestic dragon entwined with vibrant flowers and lush vines. Its scales shimmer in emerald green, and blooming petals adorn its wings, creating a kaleidoscope of color. Glowing eyes radiate wisdom, while a leafy tail sways gracefully, embodying the serenity of nature.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Dracoflora?"
+  },
+  {
+    "id": 54,
+    "created_at": "2024-12-24T06:15:17.468821+00:00",
+    "name": "Flarecrystal",
+    "type": "Fire/Rock",
+    "description": "A magnificent, towering creature resembling a crystalline volcano. Its body shimmers with vibrant red and orange hues, adorned with sparkling crystal formations. Smoke billows gently from its peak, while fiery embers dance around, illuminating the dark terrain like a molten beacon.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Flarecrystal?"
+  },
+  {
+    "id": 55,
+    "created_at": "2024-12-24T06:30:18.636013+00:00",
+    "name": "Zephyroak",
+    "type": "Flying/Grass",
+    "description": "A majestic, ancient oak tree with vibrant green leaves that shimmer in the wind. Its thick trunk is adorned with swirling blue and white patterns, resembling clouds. Delicate, luminescent flowers bloom, creating a serene atmosphere in its leafy canopy.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Zephyroak?"
+  },
+  {
+    "id": 56,
+    "created_at": "2024-12-24T06:45:17.227245+00:00",
+    "name": "Nexustide",
+    "type": "Water/Steel",
+    "description": "A sleek, futuristic aquatic creature resembling a streamlined jellyfish with metallic tentacles. Its translucent body shimmers with blue and silver hues, reflecting light like a prism. Glowing orbs dangle from its tentacles, creating a mesmerizing, ethereal effect as it moves through water.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Nexustide?"
+  },
+  {
+    "id": 57,
+    "created_at": "2024-12-24T07:00:20.231859+00:00",
+    "name": "Auroracorn",
+    "type": "Fairy/Psychic",
+    "description": "A magnificent unicorn shimmering with pastel auroras, its mane flowing like colorful wisps of light. Its eyes sparkle with cosmic hues, and star-like patterns adorn its ethereal body, radiating a soft glow as it gracefully trots through luminescent fields.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Auroracorn?"
+  },
+  {
+    "id": 58,
+    "created_at": "2024-12-24T07:15:18.844364+00:00",
+    "name": "Lunacroak",
+    "type": "Water/Ghost",
+    "description": "A mystical amphibian with a shimmering azure body, translucent moonlit wings, and glowing eyes. Its skin sparkles like the night sky, adorned with bioluminescent patterns. It glides gracefully over water, leaving a trail of ethereal mist in its wake.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Lunacroak?"
+  },
+  {
+    "id": 59,
+    "created_at": "2024-12-24T07:30:29.35678+00:00",
+    "name": "Galequill",
+    "type": "Flying/Grass",
+    "description": "A majestic bird with iridescent feathers blending green and blue hues, adorned with swirling leaf patterns. Its wings resemble giant, shimmering leaves, and it has glowing botanical tips on its talons, radiating a gentle luminescence as it soars through vibrant skies.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Galequill?"
+  },
+  {
+    "id": 60,
+    "created_at": "2024-12-24T07:45:18.655075+00:00",
+    "name": "Mechagrove",
+    "type": "Steel/Grass",
+    "description": "A towering robotic tree with metallic bark and lush, emerald leaves. Glowing circuit patterns decorate its trunk, while vibrant flowers bloom at its branches. Its eyes, crafted from shining gemstones, emit a soft, azure glow, blending technology and nature harmoniously.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Mechagrove?"
+  },
+  {
+    "id": 61,
+    "created_at": "2024-12-24T08:00:25.018987+00:00",
+    "name": "Zephyrosphinx",
+    "type": "Flying/Psychic",
+    "description": "A majestic sphinx with silken, feathered wings shimmering in ethereal colors. Its body, adorned with glowing runes, has a regal lion's mane and a crystal-like, luminescent tail. It hovers lightly above the ground, surrounded by swirling breezes and psychic energy.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Zephyrosphinx?"
+  },
+  {
+    "id": 62,
+    "created_at": "2024-12-24T08:30:22.870755+00:00",
+    "name": "Glaciarbloom",
+    "type": "Ice/Grass",
+    "description": "A majestic creature resembling a frosted tree with shimmering, ice-covered leaves. Its branches sparkle like crystals, while blooming blue flowers emit a soft, glacial glow. Snowflakes gently fall around it, creating an enchanting winter landscape in vibrant hues of blue and white.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glaciarbloom?"
+  },
+  {
+    "id": 63,
+    "created_at": "2024-12-24T08:45:24.183002+00:00",
+    "name": "Moonshadow Lynx",
+    "type": "Dark/Psychic",
+    "description": "A sleek, ethereal lynx with midnight-blue fur, starry patterns, and glowing purple eyes. It has long, wispy fur that shimmers like the night sky, and its tail appears like a shadow, blending seamlessly with the darkness around it.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Moonshadow Lynx?"
+  },
+  {
+    "id": 64,
+    "created_at": "2024-12-24T09:15:21.513728+00:00",
+    "name": "Quantum Tortoise",
+    "type": "Steel/Psychic",
+    "description": "A majestic tortoise with a shimmering metallic shell adorned with intricate circuit patterns. Its eyes glow with a soft blue light, and wisps of ethereal energy emanate from its limbs, creating a mesmerizing display of light and technology in motion.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Quantum Tortoise?"
+  },
+  {
+    "id": 65,
+    "created_at": "2024-12-24T09:45:31.935601+00:00",
+    "name": "Celestifern",
+    "type": "Grass/Fairy",
+    "description": "A majestic fern Pokémon adorned with shimmering, iridescent leaves that glisten under moonlight. It has delicate, ethereal blossoms resembling stars, and its roots glow softly with a luminescent light, creating an enchanting aura in any forest it inhabits.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Celestifern?"
+  },
+  {
+    "id": 66,
+    "created_at": "2024-12-24T10:00:18.351916+00:00",
+    "name": "Glimmergeist",
+    "type": "Ghost/Fairy",
+    "description": "A translucent, ethereal figure with shimmering, pastel wings resembling stained glass. Floating above a bed of luminous flowers, its lantern-like eyes radiate soft light. Wisps of mist trail behind, creating an enchanting, dreamlike presence in a moonlit grove.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glimmergeist?"
+  },
+  {
+    "id": 67,
+    "created_at": "2024-12-24T10:15:24.014904+00:00",
+    "name": "Tendrilur",
+    "type": "Grass/Ghost",
+    "description": "A hauntingly beautiful plant creature resembling a willow tree draped in shimmering, ethereal tendrils. Its ghostly leaves glow softly in the moonlight, and wisps of mist swirl around it, creating an enchanting yet eerie presence in the forest at night.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Tendrilur?"
+  },
+  {
+    "id": 68,
+    "created_at": "2024-12-24T10:30:18.190601+00:00",
+    "name": "Voidstalker",
+    "type": "Dark/Ghost",
+    "description": "A sleek, shadowy feline with ethereal wisps trailing behind. Its fur shimmers like a starry night, and glowing eyes pierce the darkness. Wisps of void energy swirl around, creating an eerie yet mesmerizing presence, evoking mystery and fear.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Voidstalker?"
+  },
+  {
+    "id": 69,
+    "created_at": "2024-12-24T10:45:25.039446+00:00",
+    "name": "Chromaflare",
+    "type": "Fire/Fairy",
+    "description": "A radiant fox-like creature with shimmering, iridescent fur, adorned with luminescent floral patterns. Its long, flowing tails resemble flames, trailing sparkles of light. Its large, expressive eyes glow softly, and ethereal wings made of vibrant petals flutter gracefully behind it.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Chromaflare?"
+  },
+  {
+    "id": 70,
+    "created_at": "2024-12-24T11:00:21.1712+00:00",
+    "name": "Celestial Jotun",
+    "type": "Rock/Fairy",
+    "description": "A towering, ethereal giant adorned in shimmering, crystalline rocks, with a flowing mane of glowing celestial clouds. Its eyes sparkle like distant stars, and it holds a staff made of starlight, surrounded by a halo of cosmic dust and radiant orbs.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Celestial Jotun?"
+  },
+  {
+    "id": 71,
+    "created_at": "2024-12-24T11:15:19.433564+00:00",
+    "name": "Verdantwisp",
+    "type": "Grass/Fairy",
+    "description": "A small, ethereal creature resembling a floating flower with gossamer wings. Its petals shimmer in hues of green and gold, glowing softly in the dark. Tiny sparkling orbs trail behind it, resembling fireflies, as it dances gracefully among lush forests.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Verdantwisp?"
+  },
+  {
+    "id": 72,
+    "created_at": "2024-12-24T11:30:20.840658+00:00",
+    "name": "Pyrowisp Guardian",
+    "type": "Fire/Fairy",
+    "description": "A mystical, ethereal creature resembling a floating ember-tinged spirit infused with soft pastel colors. It has delicate, flame-like wings that emit a warm glow, surrounded by sparkling motes of light. Its eyes shine like radiant gemstones, exuding a protective aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Pyrowisp Guardian?"
+  },
+  {
+    "id": 73,
+    "created_at": "2024-12-24T11:45:26.497329+00:00",
+    "name": "Solarisphinx",
+    "type": "Fire/Psychic",
+    "description": "A majestic sphinx with a glowing golden mane, radiant sun patterns on its fur, crystalline wings that shimmer like sunlight, and bright, intelligent eyes. It exudes warmth and light, surrounded by ethereal flames dancing around its paws, set against a vibrant desert backdrop.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Solarisphinx?"
+  },
+  {
+    "id": 74,
+    "created_at": "2024-12-24T12:00:23.344655+00:00",
+    "name": "Aqualisphinx",
+    "type": "Water/Fairy",
+    "description": "A majestic sphinx with shimmering aqua-blue fur, flowing like water. Its wings resemble delicate sea waves, adorned with coral patterns. It has bright, luminescent eyes and a radiant, swirling tail resembling a river, exuding an ethereal glow.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Aqualisphinx?"
+  },
+  {
+    "id": 75,
+    "created_at": "2024-12-24T12:15:21.642883+00:00",
+    "name": "Fluorosphinx",
+    "type": "Psychic/Fairy",
+    "description": "A majestic sphinx with shimmering, iridescent fur that glows in various colors. Its large, pearlescent wings resemble stained glass, and its eyes twinkle like stars, emanating a soft, enchanting light. Surrounded by ethereal wisps of energy, it radiates tranquil beauty.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Fluorosphinx?"
+  },
+  {
+    "id": 114,
+    "created_at": "2024-12-24T21:30:28.543313+00:00",
+    "name": "Blossomblaze",
+    "type": "Fire/Grass",
+    "description": "A vibrant, tree-like creature with glowing orange leaves and fiery patterns on its bark. Its branches emit sparks and small flames, while flowers bloom in shades of red and yellow. It has expressive eyes and a warm, inviting aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Blossomblaze?"
+  },
+  {
+    "id": 76,
+    "created_at": "2024-12-24T12:30:25.54648+00:00",
+    "name": "Blitztrunk",
+    "type": "Electric/Grass",
+    "description": "A colossal, tree-like creature with vibrant green bark and glowing yellow branches that resemble lightning bolts. Its face features expressive, bright eyes. Electric orbs pulsate along its limbs, and its roots shimmer with energy, grounding it in the shimmering grasslands.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Blitztrunk?"
+  },
+  {
+    "id": 77,
+    "created_at": "2024-12-24T12:45:19.623945+00:00",
+    "name": "Floralphin",
+    "type": "Water/Fairy",
+    "description": "A whimsical, dolphin-like creature with shimmering blue scales and delicate, flower-patterned fins. Its eyes sparkle like dewdrops, and vibrant petals sprout from its back. Surrounded by shimmering bubbles, it gracefully swims among colorful coral reefs in a magical underwater world.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Floralphin?"
+  },
+  {
+    "id": 78,
+    "created_at": "2024-12-24T13:00:26.607991+00:00",
+    "name": "Luminoxis",
+    "type": "Light/Steel",
+    "description": "A majestic robotic stag with radiant, solar-inspired horns. Its sleek metallic body gleams with golden accents, while holographic light trails swirl around its hooves. Its eyes shine like gemstones, reflecting vibrant patterns, and delicate gears twirl within its luminescent core.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Luminoxis?"
+  },
+  {
+    "id": 79,
+    "created_at": "2024-12-24T13:15:24.150004+00:00",
+    "name": "Solarflare Sylph",
+    "type": "Fairy/Fire",
+    "description": "A graceful sylph with shimmering golden wings resembling solar flares. Its sleek, iridescent body glows with radiant patterns. Surrounding it are wisps of flame, blending seamlessly with colorful floral motifs. It embodies the warmth and vibrancy of a sunlit meadow in summer.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Solarflare Sylph?"
+  },
+  {
+    "id": 80,
+    "created_at": "2024-12-24T13:45:22.489424+00:00",
+    "name": "Glintcrown",
+    "type": "Steel/Fairy",
+    "description": "A majestic robotic deer adorned with sparkling crystal antlers. Its shiny silver body reflects light while intricate floral patterns glimmer along its limbs. Celestial orbs float around it, radiating a soft, enchanted glow, creating a magical aura in its presence.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glintcrown?"
+  },
+  {
+    "id": 81,
+    "created_at": "2024-12-24T14:00:24.096665+00:00",
+    "name": "Frostflare Celestia",
+    "type": "Ice/Fire",
+    "description": "A majestic creature merging ice and fire, with shimmering crystalline wings and a fiery tail. Its body glows with ethereal blue and orange patterns, creating stunning contrasts. Frosty icicles hang from its mane, while flames dance around its feet, radiating an otherworldly aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Frostflare Celestia?"
+  },
+  {
+    "id": 82,
+    "created_at": "2024-12-24T14:15:18.973211+00:00",
+    "name": "Frostleaf Drake",
+    "type": "Ice/Dragon",
+    "description": "A majestic dragon with shimmering, icy-blue scales and leafy green wings. Its eyes resemble glistening sapphires, while frost-covered vines twist elegantly around its body. A crown of crystalline icicles adorns its head, radiating a soft, ethereal glow in the moonlight.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Frostleaf Drake?"
+  },
+  {
+    "id": 83,
+    "created_at": "2024-12-24T14:30:22.231414+00:00",
+    "name": "Caterraxis",
+    "type": "Grass/Steel",
+    "description": "A colossal, ancient tree-like creature adorned with glimmering metallic leaves, spiraling vines, and glowing emerald fruits. Its trunk is textured like weathered stone, and it has mesmerizing crystal eyes that reflect sunlight, radiating an aura of nature's harmony and strength.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Caterraxis?"
+  },
+  {
+    "id": 84,
+    "created_at": "2024-12-24T14:45:23.241528+00:00",
+    "name": "Verdantraptor",
+    "type": "Grass/Dragon",
+    "description": "A majestic dinosaur-like creature with emerald scales, adorned with vibrant green leaves and flowers. It has crystalline, glowing eyes, and long, flowing vines that trail behind. Its wings resemble large foliage, blending seamlessly with its lush surroundings, radiating life and energy.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Verdantraptor?"
+  },
+  {
+    "id": 85,
+    "created_at": "2024-12-24T15:00:30.265049+00:00",
+    "name": "Gloomspire",
+    "type": "Ghost/Grass",
+    "description": "A towering, shadowy tree with twisted branches and glowing, ethereal vines. Its bark is dark and mottled, emanating wisps of fog. Horrifying faces form in its knots, while luminescent flowers bloom amidst the gloom, creating an eerie, enchanting aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Gloomspire?"
+  },
+  {
+    "id": 86,
+    "created_at": "2024-12-24T15:15:23.246646+00:00",
+    "name": "Embergale",
+    "type": "Fire/Flying",
+    "description": "A majestic phoenix with iridescent golden feathers, its wings emit shimmering flames that swirl like a fiery gale. Its eyes sparkle like molten lava, and its tail is a cascade of bright orange and red flames, creating a mesmerizing, warm glow.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Embergale?"
+  },
+  {
+    "id": 87,
+    "created_at": "2024-12-24T15:30:19.432483+00:00",
+    "name": "Nebulacorn",
+    "type": "Psychic/Fairy",
+    "description": "A majestic unicorn with a swirling cosmic mane, glittering stars embedded in its body, luminescent eyes, and a horn radiating ethereal light. It stands atop a cloud, surrounded by shimmering cosmic dust, with a graceful, vibrant aura that evokes tranquility and dreams.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Nebulacorn?"
+  },
+  {
+    "id": 88,
+    "created_at": "2024-12-24T15:45:24.189014+00:00",
+    "name": "Lunaflare",
+    "type": "Psychic/Fairy",
+    "description": "A majestic, shimmering creature resembling a blend of a moonlit deer and a celestial butterfly. Its body glows softly with radiant hues of lavender and silver, adorned with ethereal wings that sparkle like starlit skies, exuding a calming, mystical aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Lunaflare?"
+  },
+  {
+    "id": 89,
+    "created_at": "2024-12-24T16:00:26.540069+00:00",
+    "name": "Frostbloom Seraph",
+    "type": "Ice/Fairy",
+    "description": "A graceful seraphim with iridescent ice-blue wings, adorned with shimmering snowflakes. Its body resembles delicate frosted petals, radiating a soft, ethereal glow. Whisps of frost trail behind it, creating a magical aura, with sparkling crystals embedded in its crystalline crown.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Frostbloom Seraph?"
+  },
+  {
+    "id": 90,
+    "created_at": "2024-12-24T16:15:18.913598+00:00",
+    "name": "Aetherflare Coral",
+    "type": "Water/Fairy",
+    "description": "A vibrant coral reef Pokémon, adorned with luminescent blossoms. Its body shimmers with iridescent colors, reflecting sunlight. Delicate fins resemble translucent wings, while bioluminescent patterns pulse softly, creating an enchanting underwater glow. It exudes a soothing, magical aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Aetherflare Coral?"
+  },
+  {
+    "id": 91,
+    "created_at": "2024-12-24T16:30:21.017648+00:00",
+    "name": "Sparklight Prism",
+    "type": "Electric/Fairy",
+    "description": "A slender, shimmering creature intertwined with prismatic light. Its wings resemble delicate stained glass, glowing with vibrant hues, and a radiant halo surrounds its head. It has sparkling eyes like twin stars, and its body radiates shimmering, electric energy.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Sparklight Prism?"
+  },
+  {
+    "id": 92,
+    "created_at": "2024-12-24T16:45:32.960574+00:00",
+    "name": "Aeroquartz",
+    "type": "Flying/Rock",
+    "description": "A majestic, crystalline bird with shimmering blue and silver feathers, its wings adorned with intricate, jagged quartz patterns. Its beak glows with a soft azure light, and a long, glittering tail trails behind, reflecting the sunlight like a prism.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Aeroquartz?"
+  },
+  {
+    "id": 93,
+    "created_at": "2024-12-24T17:00:20.797559+00:00",
+    "name": "Glimmerwisp",
+    "type": "Fairy/Ghost",
+    "description": "A luminescent, ethereal sprite with translucent wings shimmering in pastel colors. Its flowing, misty body glows softly, adorned with sparkling orbs. Wisps of vapor trail behind, blending with moonlit blues and pinks, evoking a whimsical, enchanting presence in a twilight forest.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glimmerwisp?"
+  },
+  {
+    "id": 94,
+    "created_at": "2024-12-24T17:15:18.303996+00:00",
+    "name": "Frostwisp Stag",
+    "type": "Ice/Fairy",
+    "description": "An ethereal stag with shimmering crystalline antlers, draped in frost-covered vines and delicate snowflakes. Its luminescent blue fur glows softly, while sparkling icicles dangle from its limbs. Surrounded by a mist of glimmering frost, it embodies winter's serene beauty.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Frostwisp Stag?"
+  },
+  {
+    "id": 95,
+    "created_at": "2024-12-24T17:30:19.840366+00:00",
+    "name": "Frostlume Serpent",
+    "type": "Ice/Dragon",
+    "description": "A majestic serpent covered in shimmering ice crystals, its scales reflect light in a spectrum of blues and silvers. Long, flowing fins akin to icicles trail behind, while pale, ethereal wings give it a ghostly, yet regal appearance.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Frostlume Serpent?"
+  },
+  {
+    "id": 96,
+    "created_at": "2024-12-24T17:45:24.022777+00:00",
+    "name": "Glimmerscale",
+    "type": "Dragon/Water",
+    "description": "A majestic dragon with shimmering, iridescent scales that reflect sunlight like a prism. Its long, flowing fins resemble aquatic plants, while bioluminescent patterns pulse along its body. It has sapphire-blue eyes and a graceful tail, evoking both elegance and mystery.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glimmerscale?"
+  },
+  {
+    "id": 97,
+    "created_at": "2024-12-24T18:00:19.278667+00:00",
+    "name": "Embercrown Tigris",
+    "type": "Fire/Steel",
+    "description": "A majestic tiger with fiery orange and metallic silver stripes. Its eyes glow like molten lava, and its mane resembles flickering flames. Clad in gleaming armor, it exudes power and grace, standing atop a rocky outcrop under a twilight sky.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Embercrown Tigris?"
+  },
+  {
+    "id": 98,
+    "created_at": "2024-12-24T18:15:21.591483+00:00",
+    "name": "Galeoreon",
+    "type": "Flying/Water",
+    "description": "A majestic sea dragon with iridescent azure scales and translucent, feathered wings that shimmer like seafoam. Its long, flowing fins resemble waves, and a radiant crown of coral glows atop its head, creating an enchanting contrast against the bright sky.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Galeoreon?"
+  },
+  {
+    "id": 99,
+    "created_at": "2024-12-24T18:30:15.924453+00:00",
+    "name": "Lunabloom Antheia",
+    "type": "Fairy/Grass",
+    "description": "A majestic flower spirit with iridescent petals that shimmer in moonlight, surrounded by floating, glowing orbs. It has delicate, translucent wings resembling leaves, and emits a soft, soothing light. Its body is adorned with enchanting vines and tiny star-like blossoms.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Lunabloom Antheia?"
+  },
+  {
+    "id": 100,
+    "created_at": "2024-12-24T19:00:20.978901+00:00",
+    "name": "Mystic Arboraptor",
+    "type": "Grass/Flying",
+    "description": "A majestic bird with vibrant emerald feathers, leaf-like wing tips, and a crown of luminescent flowers. Its eyes shimmer like dew, and it has long, flowing vines trailing from its tail, creating an enchanting, ethereal appearance amidst a verdant forest backdrop.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Mystic Arboraptor?"
+  },
+  {
+    "id": 101,
+    "created_at": "2024-12-24T19:21:23.742123+00:00",
+    "name": "Chromaflare Phoenix",
+    "type": "Fire/Fairy",
+    "description": "A radiant phoenix with shimmering, iridescent feathers that shift colors like a prism. Its wings emit a soft glow, surrounded by sparkles, while its eyes gleam like molten gold. Flames dance around its tail, leaving a trail of dazzling light.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Chromaflare Phoenix?"
+  },
+  {
+    "id": 102,
+    "created_at": "2024-12-24T19:23:56.02428+00:00",
+    "name": "Glimmerfenix",
+    "type": "Fire/Fairy",
+    "description": "A resplendent phoenix with shimmering feathers that change color like a sunset. Its wings sparkle with fairy dust, and a radiant flame encircles its body, leaving trails of light. Its eyes shine like stars, embodying joy and warmth.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glimmerfenix?"
+  },
+  {
+    "id": 103,
+    "created_at": "2024-12-24T19:30:12.26142+00:00",
+    "name": "Spectradune",
+    "type": "Ghost/Sand",
+    "description": "A mystical, ethereal fox-like creature with translucent fur that shimmers like grains of sand. Its glowing, luminescent eyes and swirling, sandy tail create a sparkling mist around it, as it glides silently across desert dunes under a haunting moonlit sky.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Spectradune?"
+  },
+  {
+    "id": 104,
+    "created_at": "2024-12-24T19:36:43.950215+00:00",
+    "name": "Gladiollo",
+    "type": "Grass/Fighting",
+    "description": "A majestic flower warrior, Gladiollo features vibrant, blooming petals in hues of green and red. Its muscular stem acts as a powerful torso, with leafy arms resembling swords. The head is crowned with a bright, sun-like flower, exuding strength and vitality.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Gladiollo?"
+  },
+  {
+    "id": 105,
+    "created_at": "2024-12-24T19:38:09.349082+00:00",
+    "name": "Floralith",
+    "type": "Grass/Fairy",
+    "description": "Floralith resembles a vibrant, oversized flower with crystalline petals that shimmer in sunlight. Its stem is serpentine, with vibrant green leaves spiraling around it. Ethereal wings made of delicate, translucent petals give it an enchanting appearance, surrounded by a soft, glowing aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Floralith?"
+  },
+  {
+    "id": 106,
+    "created_at": "2024-12-24T19:41:49.29286+00:00",
+    "name": "Frostavio",
+    "type": "Ice/Flying",
+    "description": "A majestic bird with crystalline feathers that shimmer like ice. Its wings resemble glistening snowflakes, and its eyes glow an ethereal blue. Frostavio tail trails sparkles of frost, soaring gracefully through wintry skies, leaving trails of snow behind.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Frostavio?"
+  },
+  {
+    "id": 107,
+    "created_at": "2024-12-24T19:51:25.182036+00:00",
+    "name": "Glimmerbark",
+    "type": "Fairy/Grass",
+    "description": "A whimsical tree-like Pokémon with sparkling leaves, glowing orbs hanging from its branches, and a wooden trunk adorned with colorful flowers. Its eyes twinkle like stars, and it stands gracefully, radiating a gentle, magical aura in a sunlit forest.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glimmerbark?"
+  },
+  {
+    "id": 108,
+    "created_at": "2024-12-24T20:00:21.887512+00:00",
+    "name": "Glitterwisp",
+    "type": "Fairy/Grass",
+    "description": "A whimsical, ethereal creature resembling a delicate flower with luminous petals that glimmer in various colors. It has small, sparkling wings like a dragonfly and a gentle, radiant glow around it, floating in the air, surrounded by tiny, twinkling lights.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glitterwisp?"
+  },
+  {
+    "id": 109,
+    "created_at": "2024-12-24T20:15:22.079426+00:00",
+    "name": "Aqualvios",
+    "type": "Water/Fairy",
+    "description": "Aqualvios is a shimmering, sea-blue creature resembling a dolphin with elegant, flowing fins. Covered in pearlescent shells, it has bioluminescent spots that glow. Its tail transforms into a cascading fountain of sparkling water, radiating a magical aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Aqualvios?"
+  },
+  {
+    "id": 110,
+    "created_at": "2024-12-24T20:30:27.297393+00:00",
+    "name": "Lumifin",
+    "type": "Water/Fairy",
+    "description": "A gleaming, translucent fish with iridescent scales and delicate, flowing fins that shimmer like starlight. Its large, expressive eyes twinkle with wisdom, and soft bioluminescent patterns ripple across its body, resembling a nighttime ocean, evoking a serene, magical presence.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Lumifin?"
+  },
+  {
+    "id": 111,
+    "created_at": "2024-12-24T20:45:23.845931+00:00",
+    "name": "Luminox",
+    "type": "Fairy/Steel",
+    "description": "A slender, ethereal creature resembling a fox, with shimmering silver fur that sparkles like stars. Its ears are long and pointed, adorned with glowing flowers. It has elegant metallic wings resembling delicate filigree, glowing softly in the dark, radiating a calming light.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Luminox?"
+  },
+  {
+    "id": 112,
+    "created_at": "2024-12-24T21:00:18.442336+00:00",
+    "name": "Fluffquill",
+    "type": "Fairy/Flying",
+    "description": "A whimsical creature resembling a cross between a fluffy cloud and a colorful quill pen. It has iridescent wings, pastel-colored fur, and swirling patterns. Its eyes sparkle with magic, and it leaves a trail of glitter as it flits joyfully through the air.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Fluffquill?"
+  },
+  {
+    "id": 115,
+    "created_at": "2024-12-24T21:45:17.20746+00:00",
+    "name": "Glimmeroot",
+    "type": "Grass/Fairy",
+    "description": "A luminescent, mushroom-like creature with soft, glowing caps in pastel colors. Its slender, twisting stem is adorned with sparkling dewdrops. Ethereal wings of translucent petals flutter softly, illuminating its surroundings, creating an enchanting atmosphere filled with vibrant, dancing lights at night.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glimmeroot?"
+  },
+  {
+    "id": 116,
+    "created_at": "2024-12-24T22:00:48.85295+00:00",
+    "name": "Sparklophant",
+    "type": "Electric/Flying",
+    "description": "A majestic elephant Pokémon with shimmering, translucent wings like a dragonfly. It's adorned with bright, glowing patterns across its sky-blue skin. Its large, expressive eyes sparkle with energy, and its trunk emits crackling electrical sparks, illuminating the surroundings.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Sparklophant?"
+  },
+  {
+    "id": 117,
+    "created_at": "2024-12-24T22:15:19.904588+00:00",
+    "name": "Flaroglyph",
+    "type": "Fire/Psychic",
+    "description": "Flaroglyph is a majestic phoenix-like creature with fiery plumage that glows in vibrant reds and oranges. It has intricate, swirling patterns on its wings, and large, expressive eyes that shimmer with a psychic aura, radiating warmth and power.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Flaroglyph?"
+  },
+  {
+    "id": 118,
+    "created_at": "2024-12-24T22:30:19.427963+00:00",
+    "name": "Glaciaroo",
+    "type": "Ice/Fairy",
+    "description": "A whimsical, shimmering blue fox with long, icy fur, adorned with frosty crystals. Its eyes sparkle like sapphires, and delicate, translucent wings resembling snowflakes flutter behind it. A gentle aura radiates, leaving a trail of sparkling frost wherever it goes.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glaciaroo?"
+  },
+  {
+    "id": 119,
+    "created_at": "2024-12-24T22:45:18.532885+00:00",
+    "name": "Glimmerpetal",
+    "type": "Fairy/Grass",
+    "description": "A whimsical, flower-like creature with shimmering petals in vibrant hues of pink and purple. Its eyes sparkle like dew drops, and it has delicate, vine-like limbs. It floats gracefully above the ground, radiating soft, glowing light, surrounded by luminescent pollen.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glimmerpetal?"
+  },
+  {
+    "id": 120,
+    "created_at": "2024-12-24T23:00:23.014403+00:00",
+    "name": "Florosauria",
+    "type": "Grass/Dragon",
+    "description": "An enchanting dinosaur-like creature with vibrant green leaves for skin, shimmering emerald scales, and delicate flowers blooming from its back. Its large, gleaming eyes sparkle with wisdom, and its long, serpentine tail is adorned with colorful petals, creating a magical aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Florosauria?"
+  },
+  {
+    "id": 121,
+    "created_at": "2024-12-24T23:30:23.254843+00:00",
+    "name": "Ferroflora",
+    "type": "Steel/Grass",
+    "description": "Ferroflora is a robotic tree Pokémon, with glossy metallic bark and vibrant green leaves. It has shimmering gears beneath its foliage, glowing with energy. The branches are adorned with luminescent flowers, and its trunk is intricately patterned, resembling vines intertwined with steel.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Ferroflora?"
+  },
+  {
+    "id": 122,
+    "created_at": "2024-12-24T23:45:19.174042+00:00",
+    "name": "Fluffernova",
+    "type": "Fairy/Steel",
+    "description": "A whimsical, cloud-like creature with shimmering silver fur, sparkling star patterns, and metallic wings. Its large, expressive eyes glow softly, and it emits a gentle, colorful aura. Fluffernova floats gracefully, leaving a trail of stardust and musical chimes in its wake.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Fluffernova?"
+  },
+  {
+    "id": 123,
+    "created_at": "2024-12-25T00:00:20.631921+00:00",
+    "name": "Glimmertree",
+    "type": "Fairy/Grass",
+    "description": "Glimmertree resembles a shimmering, luminescent tree with silver bark, sparkling leaves in pastel colors, and glowing flowers that emit a soft light. Its trunk twists elegantly, and small fairy-like creatures dance around it, creating a magical, enchanting atmosphere.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glimmertree?"
+  },
+  {
+    "id": 124,
+    "created_at": "2024-12-25T00:15:19.950165+00:00",
+    "name": "Glacifinix",
+    "type": "Ice/Flying",
+    "description": "A majestic phoenix with shimmering ice-blue feathers, glimmering like frost under sunlight. Its wings are vast and elegant, sparkling with icicles. The body is sleek, with a long, flowing tail resembling frozen ribbons, and bright, piercing sapphire eyes.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glacifinix?"
+  },
+  {
+    "id": 125,
+    "created_at": "2024-12-25T00:30:21.175375+00:00",
+    "name": "Glaciapex",
+    "type": "IceDragon",
+    "description": "A majestic dragon with shimmering icy blue scales, crystalline wings resembling frost-covered leaves, and glowing white eyes. Its long, winding tail ends in a snowflake-shaped tip, and it exudes a cold mist, giving it an enchanting, ethereal presence.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glaciapex?"
+  },
+  {
+    "id": 126,
+    "created_at": "2024-12-25T00:45:21.320528+00:00",
+    "name": "Flamengrove",
+    "type": "Fire/Grass",
+    "description": "Flamengrove resembles a vibrant, fiery tree with bright orange and red leaves. Its trunk is gnarled and glowing, with soft embers flickering amongst the branches. It has a warm, radiant aura, and its bark is textured like charred wood.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Flamengrove?"
+  },
+  {
+    "id": 127,
+    "created_at": "2024-12-25T01:00:18.175417+00:00",
+    "name": "Flareflit",
+    "type": "Fire/Fairy",
+    "description": "A small, glowing butterfly with shimmering, translucent wings resembling molten lava. Its body is a vibrant orange with delicate golden patterns. Flareflit leaves trails of sparkling embers in the air, illuminating the night with a warm, ethereal glow.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Flareflit?"
+  },
+  {
+    "id": 128,
+    "created_at": "2024-12-25T01:15:31.498886+00:00",
+    "name": "Florithorn",
+    "type": "Grass/Steel",
+    "description": "A majestic, tree-like creature with a metallic trunk covered in vibrant green leaves. Its branches are sharp and pointed like swords, and its roots glow with a soft, golden light. The eyes resemble emerald gemstones, radiating wisdom and strength.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Florithorn?"
+  },
+  {
+    "id": 129,
+    "created_at": "2024-12-25T01:30:19.204398+00:00",
+    "name": "Flameleaf",
+    "type": "Fire/Grass",
+    "description": "A vibrant, fiery-green humanoid creature with leaf-like wings and a glowing, ember-filled core. Its eyes spark with flickering flames, and its limbs are adorned with delicate vines. Surrounded by small, dancing embers, it radiates warmth and a captivating aura.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Flameleaf?"
+  },
+  {
+    "id": 130,
+    "created_at": "2024-12-25T01:45:22.173616+00:00",
+    "name": "Glimmerbreeze",
+    "type": "Fairy/Flying",
+    "description": "A delicate, luminescent creature resembling a butterfly with iridescent wings that shimmer in pastel colors. Its body is adorned with tiny glowing orbs and it has a gentle, swirling tail. Glimmerbreeze dances gracefully through the air, leaving sparkles behind.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glimmerbreeze?"
+  },
+  {
+    "id": 131,
+    "created_at": "2024-12-25T02:00:21.660878+00:00",
+    "name": "Glaciowl",
+    "type": "Ice/Flying",
+    "description": "A majestic owl with shimmering ice-blue feathers and crystalline wings. Its large, bright eyes glow like frozen stars. Perched atop snowy branches, it exudes a serene aura, leaving a trail of sparkling frost as it gracefully soars through the winter skies.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glaciowl?"
+  },
+  {
+    "id": 132,
+    "created_at": "2024-12-25T02:15:17.121475+00:00",
+    "name": "Lumifleur",
+    "type": "Grass/Fairy",
+    "description": "A luminous flower-like creature with vibrant, glowing petals in shades of pink and lavender, sparkling dew drops, and delicate, butterfly-like wings. It dances gracefully among lush greenery, radiating bioluminescent light, creating an enchanting aura in moonlit gardens.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Lumifleur?"
+  },
+  {
+    "id": 133,
+    "created_at": "2024-12-25T02:30:19.402847+00:00",
+    "name": "Aetherdragoon",
+    "type": "Dragon/Flying",
+    "description": "A majestic dragon with iridescent scales that shimmer like the northern lights. It has long, elegant wings resembling ethereal clouds and a flowing tail with star-like patterns. Its large, luminous eyes exude wisdom, set against a celestial backdrop.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Aetherdragoon?"
+  },
+  {
+    "id": 134,
+    "created_at": "2024-12-25T02:45:18.28992+00:00",
+    "name": "Glimmermoth",
+    "type": "Bug/Fairy",
+    "description": "A stunning, iridescent moth Pokémon with luminescent wings that shimmer in various colors. Its body is slender with delicate antennae and sparkling patterns, resembling starlit skies. Glimmermoth emits soft glows, filling the air with a magical aura in moonlit forests.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glimmermoth?"
+  },
+  {
+    "id": 135,
+    "created_at": "2024-12-25T03:00:20.538744+00:00",
+    "name": "Glimmerforge",
+    "type": "Steel/Fairy",
+    "description": "A majestic, shimmering dragon with metallic scales in iridescent hues. Its wings resemble delicate, stained glass, radiating colorful light. It has glowing eyes and intricate silver armor, with ethereal sparkles trailing from its tail, appearing like a living statue of fantasy.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glimmerforge?"
+  },
+  {
+    "id": 136,
+    "created_at": "2024-12-25T03:15:19.712617+00:00",
+    "name": "Luminarifox",
+    "type": "Fairy/Fire",
+    "description": "A mystical fox with shimmering, iridescent fur that glows softly in the dark. Its tails flicker like flames, and its eyes sparkle like stars. It has delicate, translucent wings reminiscent of butterfly wings, radiating warm, magical light as it prances gracefully.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Luminarifox?"
+  },
+  {
+    "id": 137,
+    "created_at": "2024-12-25T03:30:20.264787+00:00",
+    "name": "Glimmerfang",
+    "type": "Fairy/Dragon",
+    "description": "A majestic creature with iridescent scales that shimmer in sunlight. It has large, translucent wings adorned with sparkling patterns, and glowing fangs. Its eyes resemble precious gems, and it has a long, flowing tail that leaves a trail of glitter.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Glimmerfang?"
+  },
+  {
+    "id": 138,
+    "created_at": "2024-12-25T04:00:19.709396+00:00",
+    "name": "Lumiflare",
+    "type": "Fire/Fairy",
+    "description": "A small, mythical creature resembling a glowing firefly with iridescent wings. Its body sparkles in shades of orange and pink, surrounded by swirling embers. Tiny stars twinkle around it, creating a magical aura, illuminating the night with a warm, inviting light.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Lumiflare?"
+  },
+  {
+    "id": 139,
+    "created_at": "2024-12-25T04:30:22.346074+00:00",
+    "name": "Electroflora",
+    "type": "Electric/Grass",
+    "description": "A luminous, electric-green plant creature resembling a flower with glowing purple tendrils. Its leaves shimmer like solar panels, absorbing sunlight. It has bright yellow pollen that sparks energy, and its central bud pulses with light, attracting curious Pokémon and trainers alike.",
+    "img": "https://aulbdzfmaktnrcouzjbw.supabase.co/storage/v1/object/public/poke_images/Electroflora?"
+  }
+]
