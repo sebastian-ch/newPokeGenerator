@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import Chip from "./Chip";
 import { PokemonsType } from "./config";
 
 function CardList({ pokemon }: { pokemon: PokemonsType[] }) {
@@ -22,6 +23,7 @@ function CardList({ pokemon }: { pokemon: PokemonsType[] }) {
             {po.name}
           </h4>
           <img className="img-list" src={po.img} loading="lazy" />
+          <Chip label={po.type} />
         </div>
       ))}
     </>
