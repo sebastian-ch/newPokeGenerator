@@ -23,9 +23,9 @@ export const POKEMON_TYPES = {
 
 type chipType = {
   label: string;
-  textColor: string;
-  style: React.CSSProperties;
-  className: string;
+  textColor?: string;
+  style?: React.CSSProperties;
+  className?: string;
 };
 const Chip = ({
   label,
