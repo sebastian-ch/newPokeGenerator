@@ -24,26 +24,20 @@ const DetailedPokemon = () => {
       });
     }
   }, [state]);
-  
 
   function backToList() {
-    navigate("/newPokeGenerator");
+    navigate("/");
   }
 
-  return (
-    state ? 
+  return state ? (
     <div
       style={{
         display: "flex",
         maxWidth: "100vw",
         maxHeight: "100vh",
         flexDirection: "column",
-
-        //margin: 10,
-        // padding: 0,
         alignItems: "center",
         justifyContent: "center",
-        //overflow: "hidden",
       }}
     >
       <button onClick={backToList}>Back to List</button>
@@ -62,10 +56,12 @@ const DetailedPokemon = () => {
           {state?.type}
         </h3>
         <img src={state.image} alt={state?.name} className="detailed-img" />
-        <h4 style={{ color: "whitesmoke" }}>{state?.description}</h4>
+        <h4 style={{ color: "whitesmoke", padding: "5px" }}>
+          {state?.description}
+        </h4>
       </div>
     </div>
-   : 
+  ) : (
     <div
       style={{
         display: "flex",
@@ -100,10 +96,12 @@ const DetailedPokemon = () => {
           alt={pokePath?.name}
           className="detailed-img"
         />
-        <h4 style={{ color: "whitesmoke" }}>{pokePath?.description}</h4>
+        <h4 style={{ color: "whitesmoke", padding: "5px" }}>
+          {pokePath?.description}
+        </h4>
       </div>
     </div>
-  )
+  );
 };
 
 export default DetailedPokemon;

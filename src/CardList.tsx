@@ -12,7 +12,7 @@ function CardList({ pokemon }: { pokemon: PokemonsType[] }) {
       description: po.description,
       image: po.img,
     };
-    navigate(`/newPokeGenerator/${po.name}`, { state: data });
+    navigate(`/${po.name}`, { state: data });
   }
 
   return (
