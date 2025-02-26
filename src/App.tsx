@@ -44,7 +44,7 @@ function App() {
         >
           Uses AI to create a new Pokemon and dall-e-3 to generate a picture of
           it. Click on the Pokemon to see more details. The description is most
-          of the dall-e prompt. New Pokemon every 2 hours.
+          of the dall-e prompt. New Pokemon every 2 hours (I stopped it on 1/1/2025)
         </h4>
         <div
           style={{
